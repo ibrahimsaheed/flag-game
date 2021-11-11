@@ -1,0 +1,41 @@
+.img1{
+    width: 250px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+  .img2{
+    width: 250px;
+}
+.img3{
+    width: 250px;
+}
+.img4{
+    width: 250px;
+}
+body{
+    background-color: gold;
+}
+#Clock{
+    width: 900px;
+    margin: 150px;
+    text-align: center;
+    font-size: 150px;
+    
+    }
+    
